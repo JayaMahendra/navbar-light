@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,66 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.mynav {
+  font-family: Inter;
+  color: white;
+}
+
+button.launch {
+  border-radius: 16px;
+  border-top: 4px solid #7f93ef;
+  border-right: 3px solid #7f93ef;
+  border-left: 3px solid #7f93ef;
+  background: #5f77eb;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+}
+
+.icon-navbar {
+  margin-top: -3px;
+  margin-left: 5px;
+}
+
+.menu-navbar {
+  border-radius: 16px;
+  border: 1px solid rgba(19, 19, 19, 0.05);
+  background: #fff;
+  font-weight: 400;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link-active {
+  border-radius: 12px;
+  border-top: 2px solid rgba(19, 19, 19, 0.05);
+  background: rgba(19, 19, 19, 0.05);
+  color: #131313;
+}
+
+.text-navbar {
+  color: #131313;
+}
+
+.hero-content {
+  margin-top: 150px;
+}
+
+.title {
+  font-family: Poppins;
+  color: #131313;
+}
+
+.body {
+  font-size: 1.25 rem;
+  font-family: Poppins;
+}
+
+.img-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
